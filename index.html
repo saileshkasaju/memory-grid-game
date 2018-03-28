@@ -8,8 +8,22 @@
     <title>Memory Game</title>
     <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .cell {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            border: 1px solid #aaa;
+            background: #f8f8f8;
+            margin-right: 4px;
+        }
+    </style>
 </head>
 
 <body>
