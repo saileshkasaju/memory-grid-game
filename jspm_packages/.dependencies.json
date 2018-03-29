@@ -59,5 +59,6 @@
     "buffer": "npm:buffer@^5.0.6"
   },
   "npm:ieee754@1.1.11": {},
-  "npm:base64-js@1.2.3": {}
+  "npm:base64-js@1.2.3": {},
+  "npm:lodash@4.17.5": {}
 }
